@@ -1,4 +1,4 @@
-# Course Goals
+# Getting Started: Course Goals
 
 In this class, each student will learn a new programming language of their choice. However, building skills in the language that you choose is only one goal of the course.
 
