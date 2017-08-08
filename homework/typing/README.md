@@ -1,0 +1,1 @@
+This folder is for the files related to the homework for [Weak vs. Strong](https://dewv.github.io/csci-201/weakVsStrongTyping) and [Static vs. Dynamic]((https://dewv.github.io/csci-201/staticVsDynamicTyping) homework.
