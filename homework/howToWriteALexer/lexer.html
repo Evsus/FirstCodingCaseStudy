@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+
+<form name="theform" onsubmit="return lex()">
+            <p>
+                    <textarea rows="10" cols="80" name="code">Enter some code</textarea>
+            </p>
+
+            <button type="submit">Run lexer</button>
+        </form>
+
+<p id="output"></p>
+<p>This page performs lexical analysis for a small programming language. Enter some code, and the lexer will convert it to a sequence of lexemes.</p>
+<p>Here is an example program to illustrate the syntax of the programming language:</p>
+<pre><code>start
+  a = 1
+  b = a
+  print(b) /* This prints 1 */
+end</code></pre>
+
+<script>
+
+var lexemes;
+
+function lex() {
+	lexemes = [];
+	// get the source code input
+	var code = document.forms["theform"]["code"].value;
+
+	// A list of tokens, and regular expressions that define their lexemes.
+	// The lexemes are reserved words, identifiers, operators, literals, and grouping symbols.
+   	// The ordering of some of these is critical. 
+	var regexps = {
+        	WHITE_SPACE : "^\\s+", 
+        	START : "^start\\b", 
+       		END : "^end\\b",
+        	PRINT : "^print\\b",
+        	ASSIGNMENT : "^=",
+        	OPEN_PAREN : "^\\(",
+        	CLOSE_PAREN : "^\\)",
+        	OPEN_COMMENT : "^/\\*",
+       		CLOSE_COMMENT : "^\\*/",
+        	IDENTIFIER : "^[a-zA-Z]+[a-zA-Z0-9_]*",
+        	NUMERIC : "^[0-9]+\\b",
+        	UNRECOGNIZED : "^.+\\W" 
+    	}; 
+
+	var result;
+	var in_comment = false;
+
+	// while there is still code to process ...
+	while (code.length > 0) {
+	    	// test for a match with each regex, in the order they are defined
+		for (r in regexps) {
+            		result = code.match(regexps[r]);
+			if (result !== null) {
+		    		// A regex matched. Strip off the leading portion of code that matched the regex.
+				code = code.substr(result[0].length);
+
+				if (r == "OPEN_COMMENT") in_comment = true;
+
+				if (r != "WHITE_SPACE" && !in_comment) lexemes[lexemes.length] = { token: r, lexeme: result[0] };
+				if (r == "CLOSE_COMMENT") in_comment = false;
+
+                		result = null;
+                		break; // Do not look beyond first matching regex
+            		}
+        	}
+    	}
+    
+	display_lexemes();
+
+    	return false; // otherwise, output is lost when form reloads
+}
+
+function display_lexemes() {
+    	var output = "<ol>";
+
+	for (var i = 0; i < lexemes.length; i++) {
+		output = output + "<li>Token: " + lexemes[i].token + " Lexeme: <code>" + lexemes[i].lexeme + "</code></li>";
+	}
+
+	output = output + "</ol>";
+
+	document.getElementById("output").innerHTML = output; 
+}
+
+Program.prototype = {
+	parse: function parse() {
+		// <Program> ::= start <Statement>* end
+
+		var i = 0;
+		if (lexemes[i++].token != START) document.getElementById("output").innerHTML = "Syntax error: 'start' expected.";
+
+		while (i < lexemes.length - 1) {
+			Statement.parse();
+		}
+
+		if (lexemes[i].token != END) document.getElementById("output").innerHTML = "Syntax error: 'end' expected.";
+	}
+}
+
+Statement.prototype = {
+	parse: function parse() {
+		// <Statement> ::= AssignmentStatement | PrintStatement
+	
+	}
+}
+
+
+</script>
+
+</body>
+</html>
