@@ -1,3 +1,5 @@
-# Programming Languages Tutorial
+# Course Schedule
 
-TBD this will hold ToC links
+|Date|Agenda|
+|---|---|
+|Tue 22 Aug| [Getting Started](https://dewv.github.io/csci-201/GettingStarted) |
