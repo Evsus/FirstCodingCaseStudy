@@ -1,0 +1,1 @@
+This folder is for code and test data related to the Computer Speed project, part of the Sequential Instructions milestone.
