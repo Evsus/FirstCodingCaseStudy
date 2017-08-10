@@ -1,4 +1,4 @@
-# Hello, <your name here>!
+# Hello, \<your name here\>!
 
 After successfully writing the Hello, world! program, one likely next step is to write a program that asks the user to enter their name, then greets them by name.
 
