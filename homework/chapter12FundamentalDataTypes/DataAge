@@ -1,0 +1,17 @@
+use warnings;
+use strict;
+use diagnostics;
+#Age of person
+print "Enter your age in years: \n";
+my $age = <>;
+chomp $age;
+#display age with ending result being age in seconds
+print "You are.....\n";
+$age = $age * 365;
+print "$age days old, or\n";
+$age = $age * 24;
+print "$age hours old, or\n";
+$age = $age * 60;
+print "$age minutes old, or\n";
+$age = $age * 60;
+print "$age seconds old. \n";
