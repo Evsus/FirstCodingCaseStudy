@@ -1,0 +1,42 @@
+Script started on Sun 24 Sep 2017 09:32:42 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/campaignPlanning[00m (master) $ perl campaign
+Enter total registered voters: 5000
+Enter number registered party voters: 1500
+Enter registered independent voters: 2000
+Enter number of regular voters in our party: 900
+Enter number of regular independent voters: 1000
+Enter total number of actual voters: 2000
+Enter expected fraction of our party regular votes: 1
+Enter expected fraction of independent regular votes: .5
+Enter expected fraction of our party occasional votes: .6
+Enter expected fraction of other votes: .1
+Pool 1. regular party votes = 749
+Pool 2. regular independent votes = 416
+Pool 3. occasional party votes = 48
+Pool 4. other votes = 33
+Total expected votes = 1246
+
+Votes needed to win = 1001
+
+Expected Funding
+Enter number of early $500 donors: 4
+Enter number of solicitation calls: 50
+Amount available for campaign = 2250
+
+Call Pool 1? [yes:1, no:0]: 1
+Call Pool 2? [yes:1, no:0]: 1
+Call Pool 3? [yes:1, no:0]: 0
+Enter number of polling places: 2
+Clerical hours = 95
+Telephone hours = 200
+Poll watcher hours = 20
+Transport hours = 95
+Overhead hours = 102.5
+Total worker hours = 512.5
+
+Enter number of workers available: 25
+Hours per worker = 20.5
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/campaignPlanning[00m (master) $ exit
+exit
+
+Script done on Sun 24 Sep 2017 09:34:40 PM UTC

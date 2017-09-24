@@ -1,0 +1,10 @@
+Script started on Sun 24 Sep 2017 09:35:33 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/birthday[00m (master) $ perl Birthday100
+Enter the Month you were born: November
+Enter the Day you were born: 03
+Enter the Year you were born: 1996
+You will be 100 on November 03, 2096
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/birthday[00m (master) $ exit
+exit
+
+Script done on Sun 24 Sep 2017 09:36:52 PM UTC
