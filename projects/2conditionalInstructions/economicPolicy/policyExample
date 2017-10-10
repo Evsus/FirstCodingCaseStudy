@@ -1,0 +1,13 @@
+Script started on Mon 09 Oct 2017 11:56:02 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions/economicPolicy[00m (master) $ perl policy
+What is the annual growth rate in percent?: 5
+What is the inflation rate in percent?: 2
+No change in economic policy needed. 
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions/economicPolicy[00m (master) $ perl policy
+What is the annual growth rate in percent?: .2
+What is the inflation rate in percent?: 1
+Increase welfare spending, reduce personal taxes, and decrease the discount rate.
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions/economicPolicy[00m (master) $ exit
+exit
+
+Script done on Mon 09 Oct 2017 11:56:30 PM UTC
