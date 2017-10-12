@@ -1,0 +1,19 @@
+Script started on Thu 12 Oct 2017 06:04:36 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions//gradeCalculation[00m (master) $ perl grade[3P>[C[C[C[C[C[C[3@perl[C[C[C[C[C[C
+Enter first score: 100
+Enter second score: 80
+Enter third score: 75
+Enter fourth score: 90
+Enter fifth score: 100
+You're average is 93 and your grade is A
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions//gradeCalculation[00m (master) $ perl grade
+Enter first score: 55
+Enter second score: 12
+Enter third score: 98
+Enter fourth score: 55
+Enter fifth score: 90
+You're average is 75 and your grade is C
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions//gradeCalculation[00m (master) $ exit
+exit
+
+Script done on Thu 12 Oct 2017 06:06:57 PM UTC
