@@ -1,0 +1,14 @@
+Script started on Wed 18 Oct 2017 05:03:36 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions[00m (master) $ exitperl factorial.pl[9Pgit pushperl factorial.plexit[K[Kperl hotelCharges/Charges.pl
+Enter room type: 3 5
+That's not a valid room!
+Enter room type: 2 1
+Enter desired floor: 12
+There are no singles on the 12th floor.
+Enter desired floor: 11
+Enter number of nights: 3
+Single rate on floor 11 is $55.00 nightly, for a total of $165
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions[00m (master) $ exit
+exit
+
+Script done on Wed 18 Oct 2017 05:04:19 PM UTC

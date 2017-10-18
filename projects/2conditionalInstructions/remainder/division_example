@@ -1,0 +1,14 @@
+Script started on Wed 18 Oct 2017 05:04:55 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions[00m (master) $ perl remainder/division/[K.pl
+Enter the dividend: 25
+Enter the divisor: 5
+quotient = 5 and remainder = 0
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions[00m (master) $ perl remainder/division.pl
+Enter the dividend: 31
+Enter the divisor: 5
+quotient = 6 and remainder = 1
+Quotient = 6 and Remainder = 1
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions[00m (master) $ exit
+exit
+
+Script done on Wed 18 Oct 2017 05:05:46 PM UTC
