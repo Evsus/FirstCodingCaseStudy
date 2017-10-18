@@ -1,0 +1,17 @@
+Script started on Wed 18 Oct 2017 10:32:25 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions/stoppingDistance[00m (master) $ perl takil[K[K[Kol[K[Kilgate.pl
+Enter speed (in mph): 55
+Enter tailgate distance (in feet): 260
+minor wreck.
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions/stoppingDistance[00m (master) $ perl tailgate.pl
+Enter speed (in mph): 55
+Enter tailgate distance (in feet): 240
+Major wreck!
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions/stoppingDistance[00m (master) $ perl tailgate.pl
+Enter speed (in mph): 55
+Enter tailgate distance (in feet): 290
+No problem.
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/2conditionalInstructions/stoppingDistance[00m (master) $ es[Kxit
+exit
+
+Script done on Wed 18 Oct 2017 10:33:10 PM UTC
