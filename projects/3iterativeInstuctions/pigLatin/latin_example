@@ -1,0 +1,28 @@
+Script started on Tue 31 Oct 2017 05:33:30 PM UTC
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/pigLatin[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/pigLatin[00m (master) $ perl bank.pl
+Can't open perl script "bank.pl": No such file or directory
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/pigLatin[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/pigLatin[00m (master) $ perl bank.pl[K[K[K[K[K[K[Klatin.pl
+Enter a word: door
+in Pig Latin, that's oorday 
+Enter a word: open
+in Pig Latin, that's open 
+Enter a word: latin
+in Pig Latin, that's atinlay 
+Enter a word: translation
+in Pig Latin, that's ranslationtay 
+Enter a word: fire
+in Pig Latin, that's irefay 
+Enter a word: q h3llo
+Invalid input - can't process this character: 3
+Enter a word: d@rn
+Invalid input - can't process this character: @
+Enter a word: 1337
+Invalid input - can't process this character: 1
+Enter a word: all of the sentence
+Invalid input - can't process this character:  
+Enter a word: q
+I hope you enjoyed your translation experience!  Please come again!
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/pigLatin[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/pigLatin[00m (master) $ exit
+exit
+
+Script done on Tue 31 Oct 2017 05:35:12 PM UTC
