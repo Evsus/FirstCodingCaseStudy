@@ -1,8 +1,0 @@
-my $then;
-my $if = $then;
-my $else;
-if {$if = $then;
-    $then = $else};
-else {$else = $if};
-print "$else";
-print "$then";

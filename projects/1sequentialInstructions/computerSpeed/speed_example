@@ -1,0 +1,21 @@
+Script started on Thu 02 Nov 2017 07:51:27 PM UTC
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/1sequentialInstructions/computerSpeed[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/computerSpeed[00m (master) $ perl spee d.pl
+Enter executions of source-code statements: 10000
+Enter average instructions/statement: 20
+Enter clock rate in megahertz: 2000
+Enter average instructions/cycle: 1
+Enter first-level cache hit fraction: .99
+Enter first-level cache swap time in microseconds: .001
+Enter second-level cache hit fraction: .999
+Enter second-level cache swap time in microseconds: .005
+Enter main memory hit fraction: .9999
+Enter main memory page size in bytes/page: 4096
+Enter disk speed in revolutions/sec: 500
+Enter disk track length in bytes/revolution: 400000
+
+Ideal execution time = 0.0001
+Expected execution time = 0.0001020110242
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/1sequentialInstructions/computerSpeed[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/computerSpeed[00m (master) $ exit
+exit
+
+Script done on Thu 02 Nov 2017 07:52:10 PM UTC

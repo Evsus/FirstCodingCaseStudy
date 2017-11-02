@@ -1,0 +1,20 @@
+Script started on Thu 02 Nov 2017 05:30:34 PM UTC
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[00m (master) $ perl Circle.pl
+Enter a radius value: 2
+Diameter = 4
+Circumference = 12.5663706143592
+Area = 12.5663706143592
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[00m (master) $ perl Circle.pl
+Enter a radius value: 0
+Diameter = 0
+Circumference = 0
+Area = 0
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[00m (master) $ perl Circle.pl
+Enter a radius value: 1
+Diameter = 2
+Circumference = 6.28318530717959
+Area = 3.14159265358979
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/1sequentialInstructions/circleParameters[00m (master) $ exit
+exit
+
+Script done on Thu 02 Nov 2017 05:31:00 PM UTC
