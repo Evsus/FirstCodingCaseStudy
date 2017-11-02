@@ -1,0 +1,81 @@
+Script started on Thu 02 Nov 2017 04:37:54 PM UTC
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/taxPrep[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/taxPrep[00m (master) $ perl tax.pl
+Are you [S]ingle, [M]arried, or [C]ohabiting?
+Enter s, m, or c ==> M
+
+Gross income ==> 70000
+
+Number of exemptions ==> 2
+
+Tax Summary
+
+Tax rate: 25 %
+Taxable income: $68000 
+Tax owed: $17000
+
+Process another customer? (y/n): Y
+Are you [S]ingle, [M]arried, or [C]ohabiting?
+Enter s, m, or c ==> m
+
+Gross income ==> 10000
+
+Number of exemptions ==> 12
+
+Tax Summary
+
+Tax rate: 25 %
+Taxable income: $0 
+Tax owed: $0
+
+Process another customer? (y/n): y
+Are you [S]ingle, [M]arried, or [C]ohabiting?
+Enter s, m, or c ==> x
+
+invalid entry
+
+Are you [S]ingle, [M]arried, or [C]ohabiting?
+Enter s, m, or c ==> s
+
+Gross income ==> 20000
+
+Number of exemptions ==> 0
+
+Tax Summary
+
+Tax rate: 20 %
+Taxable income: $20000 
+Tax owed: $4000
+
+Process another customer? (y/n): y
+Are you [S]ingle, [M]arried, or [C]ohabiting?
+Enter s, m, or c ==> c
+
+Gross income ==> 13000
+
+Number of exemptions ==> 4
+
+Tax Summary
+
+Tax rate: 10 %
+Taxable income: $9000 
+Tax owed: $900
+
+Process another customer? (y/n): y
+Are you [S]ingle, [M]arried, or [C]ohabiting?
+Enter s, m, or c ==> c
+
+Gross income ==> 51000
+
+Number of exemptions ==> 1
+
+Tax Summary
+
+Tax rate: 15 %
+Taxable income: $50000 
+Tax owed: $7500
+
+Process another customer? (y/n): n
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/taxPrep[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/taxPrep[00m (master) $ exit
+exit
+
+Script done on Thu 02 Nov 2017 04:40:00 PM UTC
