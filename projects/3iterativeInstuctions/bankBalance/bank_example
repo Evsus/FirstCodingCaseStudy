@@ -1,0 +1,21 @@
+Script started on Sun 05 Nov 2017 12:49:16 AM UTC
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/bankBalance[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInsstuctions/bankBalance[00m (master) $ perl bank.pl
+Enter starting balance: 5
+It takes 15 years to reach 163840
+It takes 18 years to reach 1310720
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/bankBalance[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInsstuctions/bankBalance[00m (master) $ perl bank.pl
+Enter starting balance: 2
+It takes 16 years to reach 131072
+It takes 19 years to reach 1048576
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/bankBalance[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInsstuctions/bankBalance[00m (master) $ perl bank.pl
+Enter starting balance: 100
+It takes 10 years to reach 102400
+It takes 14 years to reach 1638400
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/bankBalance[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInsstuctions/bankBalance[00m (master) $ perl bank.pl
+Enter starting balance: 25
+It takes 12 years to reach 102400
+It takes 16 years to reach 1638400
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/bankBalance[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInsstuctions/bankBalance[00m (master) $ exit
+exit
+
+Script done on Sun 05 Nov 2017 12:50:15 AM UTC
