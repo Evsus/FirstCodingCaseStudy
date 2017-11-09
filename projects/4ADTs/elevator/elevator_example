@@ -1,0 +1,31 @@
+Script started on Thu 09 Nov 2017 02:10:10 AM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/elevator[00m (master) $ exitperl elevator.pl
+Welcome to Jereomy's elevator simulator!
+Options: (s)elect a floor, (f)ire alarm, or (q)uit
+Enter s, f, or q ==> x
+Invalid selection.
+Options: (s)elect a floor, (f)ire alarm, or (q)uit
+Enter s, f, or q ==> F
+Danger!  You must exit the building now!
+Options: (s)elect a floor, (f)ire alarm, or (q)uit
+Enter s, f, or q ==> s
+Enter the floor that you'd like to go to ==> 102
+Invalid floor selection - must be between 1 and 100, excluding 13.
+Options: (s)elect a floor, (f)ire alarm, or (q)uit
+Enter s, f, or q ==> s
+Enter the floor that you'd like to go to ==> 15
+Going up!..2..3..4..5..6..7..8..9..10..11..12..13..14..15..Ding!
+Options: (s)elect a floor, (f)ire alarm, or (q)uit
+Enter s, f, or q ==> s
+Enter the floor that you'd like to go to ==> 10
+Going down!..14..13..12..11..10..Ding!
+Options: (s)elect a floor, (f)ire alarm, or (q)uit
+Enter s, f, or q ==> f
+Danger!  You must exit the building now!
+9..8..7..6..5..4..3..2..1..Ding!
+Options: (s)elect a floor, (f)ire alarm, or (q)uit
+Enter s, f, or q ==> q
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/elevator[00m (master) $ exit
+exit
+
+Script done on Thu 09 Nov 2017 02:11:32 AM UTC
