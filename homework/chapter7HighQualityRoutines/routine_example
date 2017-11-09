@@ -1,0 +1,12 @@
+Script started on Thu 09 Nov 2017 06:51:06 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/homework/chapter7HighQualityRoutines[00m (master) $ exitperl routine.pl
+Enter a number between 1 and 10: 11
+Enter a number between 1 and 10: -1  0
+Enter a number between 1 and 10: 3
+Congratulation
+Congratulation
+Congratulation
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/homework/chapter7HighQualityRoutines[00m (master) $ exit
+exit
+
+Script done on Thu 09 Nov 2017 06:51:27 PM UTC
