@@ -1,0 +1,57 @@
+Script started on Tue 14 Nov 2017 03:44:51 AM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/nim[00m (master) $ perl nimpl[K[K.pl
+Welcome to the NIM simulator!
+
+Enter the number of starting stones: 7
+Would you like to go first? (y/n): Y yEs
+
+How many would you like to remove - 1 or 2? 1
+the number of stones left is 6
+
+The computer removes 2 stones.
+The number of stones left is 4
+
+How many would you like to remove - 1 or 2? 2
+the number of stones left is 2
+
+The computer removes 1 stone.
+The number of stones left is 1
+
+How many would you like to remove - 1 or 2? 2
+You cannot remove 2 stones.
+
+How many would you like to remove - 1 or 2? 1
+the number of stones left is 0
+
+The computer wins!
+
+Do you want to play again? (y/n): Y
+
+Enter the number of starting stones: 0
+you cannot start with 0 stones.
+
+Enter the number of starting stones: 4
+Would you like to go first? (y/n): n
+
+The computer removes 1 stone.
+The number of stones left is 3
+
+How many would you like to remove - 1 or 2? 0
+You cannot remove 0 stones.
+
+How many would you like to remove - 1 or 2? 3
+You cannot remove 3 stones.
+
+How many would you like to remove - 1 or 2? 2
+the number of stones left is 1
+
+The computer removes 1 stone.
+The number of stones left is 0
+
+You win!
+
+Do you want to play again? (y/n): n
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/3iterativeInstuctions/nim[00m (master) $ exit
+exit
+
+Script done on Tue 14 Nov 2017 03:46:14 AM UTC
