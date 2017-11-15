@@ -1,0 +1,46 @@
+Script started on Wed 15 Nov 2017 04:52:58 AM UTC
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/homework/chapter6WorkingClasses[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/homework/chapter6WorkingClasses[00m (master) $ perl batter_2.pl
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: m
+Enter name: john smith
+Enter number of hits: 15
+Enter how many times at bat: 20
+Enter number of defensive field plays: 10
+Enter how many errors commited: 2
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: b
+Batting average of john smith is 1.33333333333333!
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: f
+john smith has a field percent of 0.8!
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: a
+What do you want to know? [N]ame, [H]its, [B]ats, [F]ields, [E]rrors, Fielding [P]ercent: n
+Batter's name is: john smith
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: a
+What do you want to know? [N]ame, [H]its, [B]ats, [F]ields, [E]rrors, Fielding [P]ercent: h
+john smith has 15 hits!
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: a
+What do you want to know? [N]ame, [H]its, [B]ats, [F]ields, [E]rrors, Fielding [P]ercent: b
+john smith has batted 20 times!
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: a
+What do you want to know? [N]ame, [H]its, [B]ats, [F]ields, [E]rrors, Fielding [P]ercent: f
+john smith has fielded 10 times!
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: a
+What do you want to know? [N]ame, [H]its, [B]ats, [F]ields, [E]rrors, Fielding [P]ercent: e
+john smith has 2 errors!
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: a
+What do you want to know? [N]ame, [H]its, [B]ats, [F]ields, [E]rrors, Fielding [P]ercent: p
+field percent of john smith is: 0.8
+What would you like to do?
+[M]ake new batter, Calculate [B]atting average, Calculate [F]ielding percent, [A]sk for stats, [E]nd.: e
+Goodbye
+]0;ubuntu@jereomy-github-5295207: ~/workspace/csci-201-ayresj/homework/chapter6WorkingClasses[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/homework/chapter6WorkingClasses[00m (master) $ exit
+exit
+
+Script done on Wed 15 Nov 2017 04:54:12 AM UTC
