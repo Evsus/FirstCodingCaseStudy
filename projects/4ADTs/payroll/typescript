@@ -1,0 +1,54 @@
+Script started on Tue 28 Nov 2017 06:34:12 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/payroll[00m (master) $ perl payro l.[Kl.pl
+Number of employees: 4
+PROFILE FOR EMPLOYEE #1:
+type Hourly(1), Salaried(2), Salaried Plus Commission(3)
+Enter 1, 2, or 3 ==> 1
+employee ==> Biff Sanchez
+social security number ==> 111-11-1111
+hourly pay ==> 20
+Hours worked this past week ==> 30
+
+PROFILE FOR EMPLOYEE #2:
+type Hourly(1), Salaried(2), Salaried Plus Commission(3)
+Enter 1, 2, or 3 ==> 2
+employee ==> Dirk Jones
+social security number ==> 222-22-2222
+Salary ==> 700
+
+PROFILE FOR EMPLOYEE #3:
+type Hourly(1), Salaried(2), Salaried Plus Commission(3)
+Enter 1, 2, or 3 ==> 3
+employee ==> Suzie Que
+social security number ==> 333-33-3333
+Salary ==> 400
+Sales for this past week ==> 2000
+Sales commission rate (fraction paid to employee) ==> .25
+
+PROFILE FOR EMPLOYEE #4:
+type Hourly(1), Salaried(2), Salaried Plus Commission(3)
+Enter 1, 2, or 3 ==> 3
+employee ==> Jimmy John
+social security number ==> 444-44-4444
+Salary ==> 400
+Sales for this past week ==> 4000
+Sales commission rate (fraction paid to employee) ==> .25
+
+PAYCHECK REPORT:
+
+employee: Biff Sanchez
+social security number: 111-11-1111
+paycheck: $600
+employee: Dirk Jones
+social security number: 222-22-2222
+paycheck: $700
+employee: Suzie Que
+social security number: 333-33-3333
+paycheck: $900
+employee: Jimmy John
+social security number: 444-44-4444
+paycheck: $1000
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/payroll[00m (master) $ exit
+exit
+
+Script done on Tue 28 Nov 2017 06:37:04 PM UTC
