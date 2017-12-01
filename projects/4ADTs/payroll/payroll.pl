@@ -11,6 +11,7 @@ my @employees;
 package Employee
 {
     sub load{
+        my $class = shift;
         print "employee ==> ";
         chomp(my $employee_name = <>);
         print "social security number ==> ";
@@ -21,24 +22,15 @@ package Employee
                         Employee_name => $employee_name,
                         Employee_ss => $employee_ss,
                     };
-        return bless $self;
+        return bless $self, $class;
         }
-    sub get_earnings{
-        my $self = shift;
-        #what kind of employee?
-        if($self->{Employee_type} == 1){
-            $self->{employee_paycheck} = $self->Employee::Hourly::get_earnings();
-            }
-        elsif($self->{Employee_type} == 2){
-            $self->{employee_paycheck} = $self->Employee::Salaried::get_earnings();
-            }
-        elsif($self->{Employee_type} == 3){
-            $self->{employee_paycheck} = $self->Employee::Salaried_plus_commission::get_earnings();
-            }
-        if($self->{employee_paycheck} > 1000){
-            $self->{employee_paycheck} = 1000;
-        }
-    }
+#    sub get_earnings{
+#        my $self = shift;
+ #       $self->{employee_paycheck} = $self->get_earnings();
+  #      if($self->{employee_paycheck} > 1000){
+   #         $self->{employee_paycheck} = 1000;
+    #        }
+        #}
     sub to_string{
         my $employee = shift;
         print "employee: $employee->{Employee_name}\n";
@@ -46,12 +38,12 @@ package Employee
         print "paycheck: \$$employee->{employee_paycheck}\n";
         }
 };
-package Employee::Hourly
+package Hourly
 {
     use parent -norequire, "Employee";
     sub load{
-        #passes object creation to main class
-        my $employee = Employee::load();
+        my $class = shift;
+        my $employee = $class->Employee::load();
         print "hourly pay ==> ";
         chomp(my $hourly_pay = <>);
         print "Hours worked this past week ==> ";
@@ -60,7 +52,6 @@ package Employee::Hourly
         #the object is already made by this point and the following adds hourly fields to the employee
         $employee->{Hourly_pay} = $hourly_pay;
         $employee->{Hours_worked} = $hours_worked;
-        $employee->{Employee_type} = 1; 
         return $employee;
         }
     sub get_earnings{
@@ -81,31 +72,34 @@ package Employee::Hourly
         else{
             $total_earned = ($hours * $normal_pay);
             }
-        return $total_earned;
+        $employee->{employee_paycheck} = $total_earned;
+        ($employee->{employee_paycheck} > 1000) ? ($employee->{employee_paycheck} = 1000) : ($employee->{employee_paycheck});
         }
 };
-package Employee::Salaried
+package Salaried
 {
     use parent -norequire, "Employee";
     sub load{
-        my $employee = Employee::load();
+        my $class = shift;
+        my $employee = $class->Employee::load();
         print "Salary ==> ";
         chomp(my $salary = <>);
         print "\n";
         $employee->{Salary} = $salary;
-        $employee->{Employee_type} = 2;
         return $employee;
         }
     sub get_earnings{
         my $employee = shift;
-        return $employee->{Salary};
+        $employee->{employee_paycheck} = $employee->{Salary};
+        ($employee->{employee_paycheck} > 1000) ? ($employee->{employee_paycheck} = 1000) : ($employee->{employee_paycheck});
     }
 };
-package Employee::Salaried_plus_commission
+package Salaried_plus_commission
 {
     use parent -norequire, "Salaried";
     sub load{
-        my $employee = Employee::load();
+        my $class = shift;
+        my $employee = $class->Employee::load();
         print "Salary ==> ";
         chomp(my $salary = <>);
         print "Sales for this past week ==> ";
@@ -116,12 +110,12 @@ package Employee::Salaried_plus_commission
         $employee->{Salary} = $salary;
         $employee->{Sales} = $sales;
         $employee->{Commission} = $commission;
-        $employee->{Employee_type} = 3;
         return $employee;
         }
     sub get_earnings{
         my $employee = shift;
-        return ($employee->{Salary} + ($employee->{Sales} * $employee->{Commission}));
+        $employee->{employee_paycheck} = ($employee->{Salary} + ($employee->{Sales} * $employee->{Commission}));
+        ($employee->{employee_paycheck} > 1000) ? ($employee->{employee_paycheck} = 1000) : ($employee->{employee_paycheck});
         }
 };
 
@@ -135,13 +129,13 @@ until($number_employee == ($user_input - 1)){
     print "type Hourly(1), Salaried(2), Salaried Plus Commission(3)\nEnter 1, 2, or 3 ==> ";
     chomp(my $employee_type = <>);
     if($employee_type == 1){
-        $employees[$number_employee] = Employee::Hourly::load();
+        $employees[$number_employee] = Hourly->load();
         }
     elsif($employee_type == 2){
-        $employees[$number_employee] = Employee::Salaried::load();
+        $employees[$number_employee] = Salaried->load();
         }
     elsif($employee_type == 3){
-        $employees[$number_employee] = Employee::Salaried_plus_commission::load();
+        $employees[$number_employee] = Salaried_plus_commission->load();
         }
     else{print "invalid input\n"; $number_employee--; redo}
     }
@@ -149,6 +143,6 @@ print "PAYCHECK REPORT:\n\n";
 my $array_i = 0;
 foreach(@employees){
     my $employee = $employees[$array_i++];
-    $employee->Employee::get_earnings();
-    $employee->Employee::to_string();
+    $employee->get_earnings();
+    $employee->to_string();
 }
