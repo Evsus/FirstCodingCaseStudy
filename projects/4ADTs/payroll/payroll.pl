@@ -24,13 +24,6 @@ package Employee
                     };
         return bless $self, $class;
         }
-#    sub get_earnings{
-#        my $self = shift;
- #       $self->{employee_paycheck} = $self->get_earnings();
-  #      if($self->{employee_paycheck} > 1000){
-   #         $self->{employee_paycheck} = 1000;
-    #        }
-        #}
     sub to_string{
         my $employee = shift;
         print "employee: $employee->{Employee_name}\n";

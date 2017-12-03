@@ -1,0 +1,37 @@
+Script started on Sun 03 Dec 2017 10:16:00 PM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/rectangle[00m (master) $ exitperl rectangle.pl
+Let's build a rectangle!
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: m
+What are it's dimensions?
+Length: 10
+Width: 10
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: s
+Square: 10 x 10
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: a
+What would you like to alter? [L]ength? or [W]idth: L
+new length: 20
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: A
+What would you like to alter? [L]ength? or [W]idth: w
+new width: 30
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: F
+What would you like to know, [L]ength or [W]idth: l
+Length is: 20
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: F f
+What would you like to know, [L]ength or [W]idth: W
+Width is: 30
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: S
+Rectangle: 20 x 30
+What would you like to do? [M]ake a new one, [A]lter one, [F]ind its dimensions, know if it's a [S]quare, or [E]nd?
+Input: e
+Program end.
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/rectangle[00m (master) $ exit
+exit
+
+Script done on Sun 03 Dec 2017 10:17:05 PM UTC
