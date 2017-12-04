@@ -1,0 +1,26 @@
+Script started on Mon 04 Dec 2017 05:07:08 AM UTC
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/vending[00m (master) $ exitperl vending_machine.pl
+Welcome to Jereomy's vending machine!
+
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> I5 
+Amount of money inserted: 5
+
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> s
+Selected item's price: 2.94
+
+your change is:
+8 quarter(s)
+0 dime(s)
+1 nickel(s)
+1 penny(ies)
+
+5.03069808033274e-17
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> q
+Program end.
+[01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/vending[00m (master) $ exit
+exit
+
+Script done on Mon 04 Dec 2017 05:07:27 AM UTC
