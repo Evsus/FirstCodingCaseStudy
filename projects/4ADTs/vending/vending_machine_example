@@ -1,9 +1,9 @@
-Script started on Mon 04 Dec 2017 05:07:08 AM UTC
+Script started on Tue 05 Dec 2017 04:14:09 AM UTC
 [01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/vending[00m (master) $ exitperl vending_machine.pl
 Welcome to Jereomy's vending machine!
 
 Options: (i)nsert money, (s)elect an item, (q)uit
-Enter i, s, or q ==> I5 
+Enter i, s, or q ==> I
 Amount of money inserted: 5
 
 Options: (i)nsert money, (s)elect an item, (q)uit
@@ -16,11 +16,47 @@ your change is:
 1 nickel(s)
 1 penny(ies)
 
-5.03069808033274e-17
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> x
+invalid selection
+
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> s
+Sorry, you can't select, since you haven't inserted money yet.
+
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> i
+Amount of money inserted: 1
+
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> i
+Amount of money inserted: 0
+Invalid payment.  Must enter positive number.
+
+Amount of money inserted: .25
+
+Options: (i)nsert money, (s)elect an item, (q)uit
+Enter i, s, or q ==> s
+Selected item's price: 1.5
+
+Invalid selection.  Price exceeds payment.
+
+Selected item's price: 0
+
+Invalid price.  Must enter a positive number.
+
+Selected item's price: 1.13
+
+your change is:
+0 quarter(s)
+1 dime(s)
+0 nickel(s)
+2 penny(ies)
+
 Options: (i)nsert money, (s)elect an item, (q)uit
 Enter i, s, or q ==> q
 Program end.
 [01;32mjereomy[00m:[01;34m~/workspace/csci-201-ayresj/projects/4ADTs/vending[00m (master) $ exit
 exit
 
-Script done on Mon 04 Dec 2017 05:07:27 AM UTC
+Script done on Tue 05 Dec 2017 04:15:05 AM UTC

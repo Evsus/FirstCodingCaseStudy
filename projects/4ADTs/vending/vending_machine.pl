@@ -12,9 +12,9 @@ package vending_machine
         until($amount_ok == 1){
             print "Amount of money inserted: ";
             $inserted_money = <>;
-            print "\n";
-            if($inserted_money =~ /^[0-9]+$/i){
+            if(($inserted_money =~ /^[0-9]+\.[0-9]+$|^[0-9]+$|^\.[0-9]+$/i) && $inserted_money > 0.00){
                 $amount_ok = 1;
+                print "\n";
                 }
             else{
                 print "Invalid payment.  Must enter positive number.\n\n";
@@ -25,8 +25,8 @@ package vending_machine
         }
     sub select_item{
         my $object = shift;
-        if($object->{payment_sum} == 0){
-            print "Sorry, you can't select, since you haven't inserted money yet.\n";
+        if($object->{payment_sum} < 0.01){
+            print "Sorry, you can't select, since you haven't inserted money yet.\n\n";
             }
         else{
             my $amount_ok = 0;
@@ -35,7 +35,7 @@ package vending_machine
                 print "Selected item's price: ";
                 $item_price = <>;
                 print "\n";
-                if($item_price =~ /^[0-9]+\.[0-9]+$|^[0-9]+$/i){
+                if(($item_price =~ /^[0-9]+\.[0-9]+$|^[0-9]+$/i) && $item_price > 0.00){
                     if(($object->{payment_sum} > $item_price) || ($object->{payment_sum} == $item_price)){
                         $amount_ok = 1;
                         $object->{payment_sum} = ($object->{payment_sum} - $item_price);
@@ -73,7 +73,6 @@ package vending_machine
                     "$dimes dime(s)\n",
                     "$nickels nickel(s)\n",
                     "$pennies penny(ies)\n\n",
-                    "$object->{payment_sum}\n";
             }
         }
 };
