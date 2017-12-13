@@ -6,7 +6,7 @@ sub run_Lexer() {
     my $code = #$user_input; fix this
     my $use_regex = #$regex? fix this
        #can skip lexer = new lexer because perl "class" has already been invoked with "use"
-       Lexer->constructor($code, $use_regex); #inversed so the code array doesn't gobble up regex boolean
+       Lexer->constructor($use_regex, $code);
        
        my $result = "<h2>Lexemes</h2><ol>"; #need to find out if perl interpolates html?
        for(my lexeme = )
